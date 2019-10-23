@@ -5,11 +5,11 @@ import './popover.css';
 export default class Popover extends Component {
 	render() {
 		return (
-			<div class="popover">
-				<div class="popover-text">
+			<div className="popover">
+				<div className="popover-text">
 					{this.props.defaultText}
 				</div>
-				<div class={"popover-text-" + this.props.position}>
+				<div className={"popover-text-" + this.props.position}>
 					{this.props.popoverText}
 				</div>
 			</div>
