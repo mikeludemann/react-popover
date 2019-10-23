@@ -1,6 +1,6 @@
 # React Popover
 
-A popover spinner component with react
+A popover component with react
 
 ## Properties
 
